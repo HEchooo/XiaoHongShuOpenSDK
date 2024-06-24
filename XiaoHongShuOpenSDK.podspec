@@ -15,6 +15,6 @@ Pod::Spec.new do |s|
   s.libraries = 'z', 'sqlite3'
   s.pod_target_xcconfig = {
     'OTHER_LDFLAGS' => '-ObjC',
-    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
+    # 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
   }
 end
